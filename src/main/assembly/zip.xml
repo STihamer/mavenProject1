@@ -17,6 +17,10 @@
             <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
             <outputDirectory>/</outputDirectory>
         </file>
+        <file>
+            <source>${project.basedir}/app.bat</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
     </files>
     <dependencySets>
         <dependencySet>
